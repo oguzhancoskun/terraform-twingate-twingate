@@ -10,7 +10,7 @@ This module can be used to create Twingate resources. It has one sub-module name
 ```hcl
 module "twingate_resource" {
     count             = var.enable_my_twingate ? 1 : 0
-    source            = "github.com/terraform-twingate-twingate"
+    source            = "github.com/oguzhancoskun/terraform-twingate-twingate"
     endpoints         = local.twingate_endpoints
     remote_network_id = local.remote_network_id[0]
 }
