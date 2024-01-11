@@ -1,0 +1,14 @@
+google.com:
+  groups:
+  - admin
+  - developer
+  tcp_ports:
+  - '443'
+  - '80'
+  udp_ports: []
+10.19.0.0/16:
+  groups:
+  - admin
+  tcp_ports:
+  - ALL
+  udp_ports: []
