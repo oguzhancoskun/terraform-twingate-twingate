@@ -15,6 +15,6 @@ module "twingate_resource" {
     remote_network_id = local.remote_network_id[0]
 }
 ```
-See [examples](examples/) for more details.
+See [example](example/) for more details.
 
 
